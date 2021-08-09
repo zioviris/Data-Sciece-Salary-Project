@@ -15,7 +15,7 @@ df = df[df["Salary Estimate"] != "-1"]
 # Extracting the fist part of the Salary Estimate column (eliminating the Glassdor letters) using a lambda function
 salary = df["Salary Estimate"].apply(lambda x: x.split("(")[0])
 
-# Deleting the K and $ sings per hour & employer provided salary from the input (Replacing by null)
+# Deleting the K, $ sings and per hour & employer provided salary from the input (Replacing by null)
 minus_K_and_Dollar_signs = salary.apply(lambda x: x.replace("K", "").replace("$", ""))
 minus_hr = minus_K_and_Dollar_signs.apply(lambda x: x.lower().replace("per hour", "").replace("employer provided salary:", ""))
 
