@@ -12,4 +12,5 @@ https://www.youtube.com/watch?v=fhi4dOhmW-g&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5
 Data EDA
 https://www.youtube.com/watch?v=QWgg4w1SpJ8&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t&index=7
 
-
+Model Building
+https://www.youtube.com/watch?v=7O4dpR9QMIM
